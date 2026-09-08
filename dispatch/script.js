@@ -129,7 +129,6 @@ const SCREENS = {
   "1":  { label: "Licences",             pct: 8   },
   "2":  { label: "Contacts",             pct: 16  },
   "2b": { label: "Directions",           pct: 24  },
-  "2c": { label: "Truck Check-In",       pct: 28  },
   "3":  { label: "CoR & Fatigue",        pct: 33  },
   "4":  { label: "PPE & Drug/Alcohol",   pct: 42  },
   "5":  { label: "Tuan Loading Rules",   pct: 51  },
@@ -170,10 +169,8 @@ document.getElementById("licNext").addEventListener("click", () => goTo("2"));
 document.getElementById("s1Back").addEventListener("click",  () => goTo("1"));
 document.getElementById("s1Next").addEventListener("click",  () => goTo("2b"));
 document.getElementById("s1bBack").addEventListener("click", () => goTo("2"));
-document.getElementById("s1bNext").addEventListener("click", () => goTo("2c"));
-document.getElementById("s1cBack").addEventListener("click", () => goTo("2b"));
-document.getElementById("s1cNext").addEventListener("click", () => goTo("3"));
-document.getElementById("s2Back").addEventListener("click",  () => goTo("2c"));
+document.getElementById("s1bNext").addEventListener("click", () => goTo("3"));
+document.getElementById("s2Back").addEventListener("click",  () => goTo("2b"));
 document.getElementById("s2Next").addEventListener("click",  () => goTo("4"));
 document.getElementById("s3Back").addEventListener("click",  () => goTo("3"));
 document.getElementById("s3Next").addEventListener("click",  () => goTo("5"));
